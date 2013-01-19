@@ -4,7 +4,7 @@ node-torrent
 
 ##Concept
 
-``javascript
+```javascript
 var nTorrent = require('torrent')
 
 var torrent = nTorrent.add('/my/path')
@@ -54,7 +54,4 @@ torrent.on('active', function() {
 
 console.log(torrent.status)//CHECK, # Seeding
 console.log(torrent.statusCode)//2, # Seeding
-
-
-
-``
+```
